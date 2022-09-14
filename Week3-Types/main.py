@@ -150,3 +150,10 @@ print("your name has", len(name), 'characters')
 
 max_letter = max(name)
 min_letter = min(name)
+
+
+item = input("What is your usual starbucks order?")
+price = float(input("How much does that cost?"))
+
+print("It costs", price * 1.06, "with tax for a", item)
+print(f'It costs {price * 1.06:.2f} with tax for a {item}')
